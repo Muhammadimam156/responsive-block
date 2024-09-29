@@ -1,0 +1,20 @@
+.img-box{
+    width: 100%;
+    height: auto;
+}
+.img{
+  margin-left: 3.5%;
+  width: 20%;
+}
+@media  screen and (max-width : 1024px) {
+    .img{
+        margin-left: 3.5%;
+        width: 45%;
+    }
+}
+@media  screen and (max-width : 412px) {
+    .img{
+        margin-left: 3.5%;
+        width: 95%;
+    }
+}
