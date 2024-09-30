@@ -3,18 +3,22 @@
     height: auto;
 }
 .img{
-  margin-left: 3.5%;
+  
   width: 20%;
+  object-fit: cover;
+  aspect-ratio: 3/4;
+  border-radius: 50%;
+ margin-left: 3%;
 }
 @media  screen and (max-width : 1024px) {
     .img{
-        margin-left: 3.5%;
+       margin-left: 3%;
         width: 45%;
     }
 }
 @media  screen and (max-width : 412px) {
     .img{
-        margin-left: 3.5%;
+       margin-left: 3%;
         width: 95%;
     }
 }
